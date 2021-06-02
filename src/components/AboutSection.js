@@ -4,6 +4,7 @@ import {About,Description,Hide,Image} from "../styles";
 //Framer Motin
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../components/animation";
+import Wave from "./Wave";
 
 const AboutSection = () => {
     return(
@@ -30,9 +31,9 @@ const AboutSection = () => {
             <Image>
                     <motion.img variants={photoAnim} src={home1} alt="photographer" />
             </Image>
+            <Wave />
         </About>
     )
 };
-
 
 export default AboutSection;
