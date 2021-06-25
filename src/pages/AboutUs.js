@@ -2,7 +2,7 @@ import React from "react";
 //Import Pages
 import AboutSection from "../components/AboutSection";
 import ServicesSection from "../components/ServicesSection";
-import FagSection from "../components/FagSection";
+import FaqSection from "../components/FaqSection";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../components/animation";
@@ -12,7 +12,7 @@ const AboutUs = () => {
         <motion.div variants={pageAnimation} initial="hidden" animate="show" exit="exit">
             <AboutSection />
             <ServicesSection />
-            <FagSection />
+            <FaqSection />
         </motion.div>
     );
 };
