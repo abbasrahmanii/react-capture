@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { sliderContainer, slider, pageAnimation, fade, photoAnim, lineAnim } from "../components/animation";
 //
 import { useScroll } from "../components/useScroll";
+import ScrollTop from "../components/ScrollTop";
 
 const OurWork = () => {
     const [element, controls] = useScroll();
@@ -45,6 +46,7 @@ const OurWork = () => {
                     <img src={goodtimes} alt="good times" />
                 </Link>
             </Movie>
+            <ScrollTop />
         </Work>
     );
 };

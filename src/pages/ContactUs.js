@@ -42,15 +42,15 @@ const ContactStyle = styled(motion.div)`
     min-height: 90vh;
 `;
 const Title = styled.div`
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     color: black;
 `;
 const Hide = styled.div`
     overflow: hidden;
 `;
 const Circle = styled.div`
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     background: #353535;
 `;
@@ -58,7 +58,7 @@ const Social = styled(motion.div)`
     display: flex;
     align-items: center;
     h2 {
-        margin: 2rem;
+        margin: 1.5rem;
     }
 `;
 
